@@ -2,9 +2,6 @@
 public class TesteReferencias {
 	
 	public static void main(String[] args) {
-		Funcionario funcionario = new Funcionario();
-		funcionario.setSalario(1500);
-		System.out.println("Bonificacao funcionario: " + funcionario.getBonificacao());
 		
 		Designer designer = new Designer();
 		designer.setSalario(2500);
@@ -20,7 +17,6 @@ public class TesteReferencias {
 		
 		ControleBonificacao controleBonificacao = new ControleBonificacao();
 		
-		controleBonificacao.registra(funcionario);
 		controleBonificacao.registra(designer);
 		controleBonificacao.registra(editor);
 		controleBonificacao.registra(gerente);

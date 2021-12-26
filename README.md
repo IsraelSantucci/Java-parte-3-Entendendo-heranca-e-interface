@@ -24,3 +24,9 @@ Repositório das atividades executadas no Curso Java parte 3 Entendendo herança
 * A utilização da anotação @Override
 * Construtores não são herdados
 * Um construtor da classe mãe pode ser chamado através do super()
+
+* O que são classes abstratas
+* Para que servem classes abstratas
+* O que são métodos abstratos, um metodo que não tem corpo ,ou seja, sem implementacao e que as classes filhas deverao implementar;
+* Para que servem métodos abstratos.
+* Classe que contém um ou mais métodos abstratos deve ser declarada explicitamente como abstrata. Essa classe, no entanto, pode ter métodos concretos (não-abstratos). 
