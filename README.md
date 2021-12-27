@@ -30,3 +30,8 @@ Repositório das atividades executadas no Curso Java parte 3 Entendendo herança
 * O que são métodos abstratos, um metodo que não tem corpo ,ou seja, sem implementacao e que as classes filhas deverao implementar;
 * Para que servem métodos abstratos.
 * Classe que contém um ou mais métodos abstratos deve ser declarada explicitamente como abstrata. Essa classe, no entanto, pode ter métodos concretos (não-abstratos). 
+
+* Não existe herança múltipla em Java.
+* Conceitos de interface. 
+* Diferenças entre classes abstratas e interfaces.
+* interfaces são uma alternativa a herança referente ao polimorfismo
