@@ -35,3 +35,10 @@ Repositório das atividades executadas no Curso Java parte 3 Entendendo herança
 * Conceitos de interface. 
 * Diferenças entre classes abstratas e interfaces.
 * interfaces são uma alternativa a herança referente ao polimorfismo
+
+* Mais a fundo sobre o uso de interfaces
+* Trabalhamos mais a fundo com herança
+* Vimos outras aplicações de heranças e interfaces
+* Aconcelhavel o uso de Herança quando quiser reaproveitamento de codigo e polimorfismo ao mesmo tempo.
+* Alternativas para evitar a herança: Para reaproveitamento de codigo pode-se usar a Composição e para polimorfismo as Interfaces.
+ 
