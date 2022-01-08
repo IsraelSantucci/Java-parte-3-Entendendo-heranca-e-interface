@@ -17,15 +17,19 @@ public abstract class Conta {
 
 	public abstract void deposita(double valor);
 
-	public void saca(double valor) throws SaldoInsuficienteException {
+	public void saca(double valor) throws SacaException {
 		if(this.saldo < valor) {
-			throw new SaldoInsuficienteException("Saldo insuficiente para sacar o valor de " + valor);
+			throw new SacaException("Saldo insuficiente para sacar o valor de " + valor);
+		}
+		
+		if(valor <= 0){
+			throw new SacaException("Valor invalido");
 		}
 			this.saldo -= valor;
 				
 	}
 
-	public void transfere(double valor, Conta destino) throws SaldoInsuficienteException{
+	public void transfere(double valor, Conta destino) throws SacaException{
 		this.saca(valor);
 		destino.deposita(valor);
 			

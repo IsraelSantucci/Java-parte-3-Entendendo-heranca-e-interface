@@ -3,11 +3,11 @@ import javax.swing.JOptionPane;
 
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
-import br.com.bytebank.banco.modelo.SaldoInsuficienteException;
+import br.com.bytebank.banco.modelo.SacaException;
 
 public class TesteContas {
 
-	public static void main(String[] args) throws SaldoInsuficienteException{
+	public static void main(String[] args) throws SacaException{
 		ContaCorrente cc = new ContaCorrente(333, 333);
 		cc.deposita(1000);
 		
