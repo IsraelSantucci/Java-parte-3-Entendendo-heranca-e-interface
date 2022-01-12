@@ -1,12 +1,20 @@
 package br.com.bytebank.banco.modelo;
 
-
+/**
+ * Classe usada para representar um cliente no Bytebank
+ * @author israel
+ *
+ */
 public class Cliente {
 
     private String nome;
     private String cpf;
     private String profissao;
 
+    /**
+     * metodo para retornar o nome 
+     * @return
+     */
     public String getNome() {
         return nome;
     }

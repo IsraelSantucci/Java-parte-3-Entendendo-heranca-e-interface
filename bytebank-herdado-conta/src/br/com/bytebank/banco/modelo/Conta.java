@@ -1,5 +1,9 @@
 package br.com.bytebank.banco.modelo;
-
+/**
+ * Classe abstrata para representar uma conta generica
+ * @author israel
+ *
+ */
 public abstract class Conta {
 
 	protected double saldo;
@@ -17,6 +21,11 @@ public abstract class Conta {
 
 	public abstract void deposita(double valor);
 
+	/**
+	 * metodo usado para editar o saldo do cliente 
+	 * @param valor
+	 * @throws SacaException
+	 */
 	public void saca(double valor) throws SacaException {
 		if(this.saldo < valor) {
 			throw new SacaException("Saldo insuficiente para sacar o valor de " + valor);
